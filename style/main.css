@@ -26,7 +26,7 @@ body{background: var(--preto);
     font-size: 40px;
   }
   header nav a{
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: rgb(193, 192, 192);
     margin-right: 10px;
@@ -48,9 +48,48 @@ body{background: var(--preto);
     align-items: flex-start;
   }
 
+  .filme-principal2{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Vikings2.jpg');
+    
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .filme-principal3{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Eternos.jpg');
+    
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .filme-principal4{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/bts.jpg');
+    
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
   .filme-principal .descricao{
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .titulo {
@@ -64,6 +103,7 @@ body{background: var(--preto);
     color: white;
     padding: 15px 30px;
     margin-right: 12px;
+    margin-bottom: 25px;
     cursor: pointer;
     transition: .3s ease all;
     border-radius: 3px;
@@ -74,7 +114,7 @@ body{background: var(--preto);
   }
   .botao i{
     margin-right: 6px;
-  }
+     }
 
   .container{
     margin-left: 20px;
@@ -84,13 +124,21 @@ body{background: var(--preto);
     width: 70%;
   }
 
+  .item{
+    border-radius: 5px;
+    margin-right: 10px ;
+    width: 60%;
+    height: 60%;
+    display: flex;
+  }
+
   .box-film{
-    width: 220px;
+    width: 100%;
     height: 100%;
-    display: block;
+    display:block;
   }
 
   .carrosel-filmes{
-    margin-top: 5px;
+    margin-top: 10px;
 
   }
