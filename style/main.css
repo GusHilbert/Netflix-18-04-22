@@ -85,7 +85,12 @@ body{background: var(--preto);
   }
 
   .box-film{
-    width: 250px;
+    width: 220px;
     height: 100%;
     display: block;
+  }
+
+  .carrosel-filmes{
+    margin-top: 5px;
+
   }
