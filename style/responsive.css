@@ -11,8 +11,11 @@
 }
 
 @media screen and (min-width: 701px) {
-  .descricao{
+  .descricao {
     width: 60%;
   }
-  
+  .titulo {
+    width: 60%;
+  }
+   
 }

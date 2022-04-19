@@ -37,8 +37,7 @@ body{background: var(--preto);
   }
   .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Vikings.jpg');
-    
+        
     height: 400px;
     background-size: cover;
     
@@ -48,44 +47,25 @@ body{background: var(--preto);
     align-items: flex-start;
   }
 
-  .filme-principal2{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Vikings2.jpg');
-    
-    height: 400px;
-    background-size: cover;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
+  .foto1{
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Vikings.jpg');
+  background-size: cover;
+}
 
-  .filme-principal3{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Eternos.jpg');
-    
-    height: 400px;
-    background-size: cover;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
+.foto2{
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Vikings2.jpg');
+  background-size: cover;
+} 
 
-  .filme-principal4{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/bts.jpg');
-    
-    height: 400px;
-    background-size: cover;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
+  .foto3{
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Eternos.jpg');
+  background-size: cover;
+} 
+
+  .foto4{
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/bts.jpg');
+  background-size: cover;
+} 
 
   .filme-principal .descricao{
     margin-top: 10px;
