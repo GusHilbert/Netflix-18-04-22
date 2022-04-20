@@ -50,22 +50,22 @@ body{background: var(--preto);
   .foto1{
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Vikings.jpg');
   background-size: cover;
-}
+  }
 
-.foto2{
+  .foto2{
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Vikings2.jpg');
   background-size: cover;
-} 
+  } 
 
   .foto3{
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/Eternos.jpg');
   background-size: cover;
-} 
+  } 
 
   .foto4{
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/bts.jpg');
   background-size: cover;
-} 
+  } 
 
   .filme-principal .descricao{
     margin-top: 10px;
