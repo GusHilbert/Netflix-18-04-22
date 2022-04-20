@@ -77,6 +77,15 @@ body{background: var(--preto);
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
   }
+  .indice{
+  font-size: 25px;
+  margin-left: 15px;
+  color: rgb(148, 148, 148);
+  text-decoration: none;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  cursor: text;
+  }
+
   .botao{
     background-color: rgba(0,0,0,.50);
     border: none;
